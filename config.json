@@ -1,0 +1,11 @@
+{
+  "ngModule": "todos",
+
+  "www": {
+    "port": 9000
+  },
+
+  "livereload": {
+    "port": 35729
+  }
+}

@@ -1,0 +1,22 @@
+
+www
+.tmp
+.DS_Store
+.sass-cache
+node_modules
+
+# Android
+platforms/android/bin
+platforms/android/gen
+platforms/android/assets
+platforms/android/.staging
+platforms/android/CordovaLib
+platforms/android/res/xml/config.xml
+
+# iOS
+platforms/ios/Beacon/config.xml
+platforms/ios/build
+platforms/ios/CordovaLib/build
+platforms/ios/www
+platforms/ios/.staging
+platforms/ios/cordova/console.log

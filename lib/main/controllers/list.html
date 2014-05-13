@@ -1,0 +1,31 @@
+
+<ion-view title="{{title}}">
+
+  <ion-nav-buttons side="left">
+    <!-- app icon which toggles menu -->
+    <button class="button button-clear icon ion-clipboard" menu-toggle="left">
+    </button>
+  </ion-nav-buttons>
+
+  <!-- add and settings buttons -->
+  <ion-nav-buttons side="right">
+    <button class="button button-clear icon ion-plus-round">
+    </button>
+<<<<<<< HEAD
+    <button class="button button-clear icon ion-android-more">
+=======
+    <button class="button button-clear ion-android-more" menu-toggle="right">
+>>>>>>> b5e5510... cleaned up list html
+    </button>
+  </ion-nav-buttons>
+
+  <ion-content has-bouncing="true" padding="false" scroll="true">
+    <ion-refresher pulling-text="Pull to refresh..." on-refresh="doRefresh()">
+    </ion-refresher>
+
+    <ion-list can-reorder="true" show-reorder="true">
+      <ion-item ng-repeat="item in items">{{item.id}}</ion-item>
+    </ion-list>
+  </ion-content>
+
+</ion-view>
